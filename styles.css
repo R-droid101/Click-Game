@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --dark-background: rgb(90, 90, 90);
+    --dark-font: white;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: var(--dark-background);
+    color: var(--dark-font);
+}
+
+.flexy {
+    display: flex;
+    justify-content: flex-start;
+}
+
+h1 {
+    margin-left: 5rem;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button, .start {
+    margin: 5rem 10rem;
+    text-align: center;
+    height: 6rem;
+    width: 10rem;
+    background-color: grey;
+    color: var(--dark-font);
+    border-color: white;
+    border-width: 5px;
+    color: black;
+}
+
+.clicks, .score, .timer {
+    font-size: 2rem;
+    color: var(--dark-font);
+    text-align: center;
+}
+
+.clicks {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 1.8rem;
+}
+
+.message {
+    margin-top: 2rem;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transform-origin: 50% 50%;
+    transition: transform .25s, filter .25s ease-in-out;
+}
+
+button:hover {
+    transform: scale(0.92);
+}
+
+.high {
+    text-align: left;
+    margin: 1rem 1.5rem -0.8rem 2rem;
+    flex: 2;
+}
+
+.score {
+    margin-left: 6rem;
+}
+
+.flexy2 {
+    background-color: rgb(10, 10, 10);
+    margin-top: 4.5rem;
+    box-shadow: 0px 0px 3px 10px rgb(60, 60, 60);
+}
